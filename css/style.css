@@ -215,12 +215,12 @@ RESPONSIVE **/
         font-size: 2.5rem;
     }
 
-    .hidden_r {
+    .hidden_responsive {
         display: none;
     }
 
     /* Can be a *section* span:last-child */
-    .break_r {
+    .break_responsive {
         display: block;
     }
 }
