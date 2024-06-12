@@ -7,8 +7,7 @@ const LAST_MODIFIED_YEAR = date.getFullYear();
 
 // Afficher la date au format suisse.
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/DateTimeFormat
-let formattedDate = new Intl.DateTimeFormat("fr-CH", {dateStyle: "medium"})
-.format(date);
+let formattedDate = new Intl.DateTimeFormat("fr-CH", { dateStyle: "medium" }).format(date);
 
 document.getElementById("last-modified-date").innerText = formattedDate;
 document.getElementById("last-modified-year").innerText = LAST_MODIFIED_YEAR;
